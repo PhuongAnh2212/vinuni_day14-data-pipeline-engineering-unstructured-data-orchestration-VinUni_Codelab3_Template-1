@@ -16,12 +16,12 @@ def process_pdf_data(raw_json: dict) -> dict:
     # Lưu ý: Các key như 'pdf_id', 'author', 'category' là giả định. 
     # Hãy thay đổi chúng cho khớp với JSON đầu vào thực tế của file PDF.
     return {
-        "document_id": str(raw_json.get("pdf_id", "unknown_id")),
+        "document_id": str(raw_json.get("docId", "unknown_id")),
         "source_type": "PDF",
         "author": str(raw_json.get("author", "unknown_author")),
-        "category": str(raw_json.get("category", "unknown_category")),
+        "category": str(raw_json.get("docCategory", "unknown_category")),
         "content": cleaned_content,
-        "timestamp": str(raw_json.get("timestamp", "1970-01-01T00:00:00Z"))
+        "timestamp": str(raw_json.get("createdAt", "1970-01-01T00:00:00Z"))
     }
 
 def process_video_data(raw_json: dict) -> dict:
