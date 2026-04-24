@@ -8,7 +8,7 @@
 | **Observability Engineer** | `quality_check.py` | Phạm Đoàn Phương Anh - 2A202600257 |
 | **DevOps Specialist** | `orchestrator.py` | Phan Anh Khôi - 2A202600276 |
 
-
+"""
 ==================================================
 AUTOMATED GRADING SUITE
 ==================================================
@@ -22,3 +22,4 @@ Final Result         | 10      | PASSED
 --------------------------------------------------
 TOTAL SCORE: 100/100
 ==================================================
+"""
