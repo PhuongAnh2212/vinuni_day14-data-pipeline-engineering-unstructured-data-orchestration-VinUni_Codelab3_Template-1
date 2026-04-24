@@ -1,7 +1,7 @@
 
 ### Track 02 - Lab 02
 
-| Vai trò | File phụ trách | Hoc vien |
+| Vai trò | File phụ trách | Học Viên |
 | :--- | :--- | :--- |
 | **Lead Data Architect** | `schema.py` | Lê Minh Tuấn - 2A202600379 |
 | **ETL Builder** | `process_unstructured.py` |  |
