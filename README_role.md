@@ -6,4 +6,4 @@
 | **Lead Data Architect** | `schema.py` | Lê Minh Tuấn - 2A202600379 |
 | **ETL Builder** | `process_unstructured.py` | Nguyễn Thị Thu Hiền - 2A202600212 |
 | **Observability Engineer** | `quality_check.py` | Phạm Đoàn Phương Anh - 2A202600257 |
-| **DevOps Specialist** | `orchestrator.py` |  |
+| **DevOps Specialist** | `orchestrator.py` | Phan Anh Khôi - 2A202600276 |
